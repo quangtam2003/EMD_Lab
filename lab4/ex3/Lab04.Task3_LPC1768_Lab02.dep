@@ -1,0 +1,137 @@
+Dependencies for Project 'Lab04.Task3', Target 'LPC1768_Lab02': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\Joystick.c)(0x5DAC1434)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\joystick.o --omf_browse .\joystick.crf --depend .\joystick.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (Joystick.h)(0x5DAC1434)
+F (.\Led.c)(0x5DAC143A)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (Led.h)(0x5DAC143D)
+F (.\main.c)(0x6657F11B)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x562755EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (Uart.h)(0x6657EF5E)
+I (Joystick.h)(0x5DAC1434)
+I (Led.h)(0x5DAC143D)
+F (.\Uart.c)(0x6657F0B2)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (uart.h)(0x6657EF5E)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common\GLCD_Fonts.c)(0x5A55B2F0)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\glcd_fonts.o --omf_browse .\glcd_fonts.crf --depend .\glcd_fonts.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board\Board_GLCD.h)(0x5D142B7A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common\GLCD_MCB1700.c)(0x5A55B2F0)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\glcd_mcb1700.o --omf_browse .\glcd_mcb1700.crf --depend .\glcd_mcb1700.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\PIN_LPC17xx.h)(0x558253AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPIO_LPC17xx.h)(0x558253AA)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common\GLCD_Config.h)(0x5A55B2F0)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board\Board_GLCD.h)(0x5D142B7A)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_SPI.h)(0x538538EE)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x5305CA28)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common\Joystick_MCB1700.c)(0x539A8DF2)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\joystick_mcb1700.o --omf_browse .\joystick_mcb1700.crf --depend .\joystick_mcb1700.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\PIN_LPC17xx.h)(0x558253AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPIO_LPC17xx.h)(0x558253AA)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board\Board_Joystick.h)(0x5D142B7A)
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x5DAC165E)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\rtx_conf_cm.o --omf_browse .\rtx_conf_cm.crf --depend .\rtx_conf_cm.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x562755EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x556D3EF4)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x56246B16)()
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\SSP_LPC17xx.c)(0x571D98CC)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\ssp_lpc17xx.o --omf_browse .\ssp_lpc17xx.crf --depend .\ssp_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPIO_LPC17xx.h)(0x558253AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPDMA_LPC17xx.h)(0x568F68C8)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\SSP_LPC17xx.h)(0x568F68C8)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\PIN_LPC17xx.h)(0x558253AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_SPI.h)(0x538538EE)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x5305CA28)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\RTE\Device\LPC1768\RTE_Device.h)(0x66580DC8)
+I (.\RTE\_LPC1768_Lab02\RTE_Components.h)(0x66613BC2)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPDMA_LPC17xx.c)(0x56931726)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\gpdma_lpc17xx.o --omf_browse .\gpdma_lpc17xx.crf --depend .\gpdma_lpc17xx.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPDMA_LPC17xx.h)(0x568F68C8)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPIO_LPC17xx.c)(0x558253AA)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\gpio_lpc17xx.o --omf_browse .\gpio_lpc17xx.crf --depend .\gpio_lpc17xx.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\GPIO_LPC17xx.h)(0x558253AA)
+F (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\PIN_LPC17xx.c)(0x558253AA)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\pin_lpc17xx.o --omf_browse .\pin_lpc17xx.crf --depend .\pin_lpc17xx.d)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver\PIN_LPC17xx.h)(0x558253AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x66580DC8)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x5DAC1739)(--cpu Cortex-M3 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x5DAC1739)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O0 --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_LPC1768_Lab02-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\RTE_Driver-IC:\Users\ACER\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.11.1\Board-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x5848EB32)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x5848EB32)

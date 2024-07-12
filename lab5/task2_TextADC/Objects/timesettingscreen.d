@@ -1,0 +1,11 @@
+.\objects\timesettingscreen.o: TimeSettingScreen.c
+.\objects\timesettingscreen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timesettingscreen.o: D:\Keil_package_install\Keil\MDK-Middleware\7.11.1\Board\Board_Joystick.h
+.\objects\timesettingscreen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timesettingscreen.o: D:\Keil_package_install\Keil\MDK-Middleware\7.11.1\Board\Board_GLCD.h
+.\objects\timesettingscreen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\timesettingscreen.o: PumpSetting.h
+.\objects\timesettingscreen.o: Time.h
+.\objects\timesettingscreen.o: Common.h
+.\objects\timesettingscreen.o: D:\Keil_package_install\Keil\LPC1700_DFP\2.5.0\Boards\Keil\MCB1700\Common\GLCD_Config.h
+.\objects\timesettingscreen.o: PumpSetting.h

@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\objects\test_adc.o"
+".\objects\adc.o"
+".\objects\leds.o"
+".\objects\os_systick.o"
+".\objects\gpdma_lpc17xx.o"
+".\objects\gpio_lpc17xx.o"
+".\objects\pin_lpc17xx.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\Lab4_task1_ADC_led.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Lab4_task1_ADC_led.map" -o .\Objects\Lab4_task1_ADC_led.axf

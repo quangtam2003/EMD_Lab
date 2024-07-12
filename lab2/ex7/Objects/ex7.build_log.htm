@@ -1,0 +1,226 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ewew ACER, ewew, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\Year 3\Semester 2\EMB Lab\lab2\ex7\ex7.uvprojx
+Project File Date:  04/11/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+ex7.cpp(1): warning: non-portable path to file '<LPC17xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <lpc17xx.h>
+         ^~~~~~~~~~~
+         <LPC17xx.h>
+ex7.cpp(1): warning: In file included from...
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(90): warning: commas at the end of enumerator lists are incompatible with C++98 [-Wc++98-compat-pedantic]
+  CANActivity_IRQn              = 34,       /*!< CAN Activity Interrupt                                                   */
+                                    ^~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(200): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(204): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(200): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(204): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(214): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(218): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(214): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(218): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(227): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(231): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(227): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(231): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(240): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(244): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(240): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(244): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(253): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(257): warning: anonymous structs are a GNU extension [-Wgnu-anonymous-struct]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(253): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(257): warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+    struct {
+    ^
+ex7.cpp(10): warning: use of old-style cast [-Wold-style-cast]
+        LPC_GPIO2->FIODIR |= (1<<4); //set P2.4 as output
+        ^~~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(999): note: expanded from macro 'LPC_GPIO2'
+#define LPC_GPIO2             ((LPC_GPIO_TypeDef      *) LPC_GPIO2_BASE    )
+                               ^                         ~~~~~~~~~~~~~~
+ex7.cpp(24): warning: use of old-style cast [-Wold-style-cast]
+        LPC_SC->PCONP |= (1<<22); //Power up TIM0. By default TIM0 and TIM1 are enabled.
+        ^~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(996): note: expanded from macro 'LPC_SC'
+#define LPC_SC                ((LPC_SC_TypeDef        *) LPC_SC_BASE       )
+                               ^                         ~~~~~~~~~~~
+ex7.cpp(25): warning: use of old-style cast [-Wold-style-cast]
+        LPC_SC->PCLKSEL0 &= ~(0x3<<13); //Set PCLK for timer = CCLK/4 = 100/4 (default)
+        ^~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(996): note: expanded from macro 'LPC_SC'
+#define LPC_SC                ((LPC_SC_TypeDef        *) LPC_SC_BASE       )
+                               ^                         ~~~~~~~~~~~
+ex7.cpp(25): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_SC->PCLKSEL0 &= ~(0x3<<13); //Set PCLK for timer = CCLK/4 = 100/4 (default)
+                         ~~ ^~~~~~~~~~
+ex7.cpp(27): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->CTCR = 0x0;
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(28): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->PR = PRESCALE; //Increment LPC_TIM0->TC at every 24999+1 clock cycles 
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(31): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->MR0 = 3000; //Toggle Time in mS
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(32): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->MCR |= (1<<0) | (1<<1); // Interrupt & Reset on MR0 match
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(33): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->TCR |= (1<<1); //Reset Timer0
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(37): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->TCR = 0x01; //Enable timer
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(42): warning: use of old-style cast [-Wold-style-cast]
+        LPC_TIM2->IR |= (1<<0); //Clear MR0 Interrupt flag
+        ^~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(1005): note: expanded from macro 'LPC_TIM2'
+#define LPC_TIM2              ((LPC_TIM_TypeDef       *) LPC_TIM2_BASE     )
+                               ^                         ~~~~~~~~~~~~~
+ex7.cpp(43): warning: use of old-style cast [-Wold-style-cast]
+        LPC_GPIO2->FIOPIN ^= (1<<4); //Toggle LED
+        ^~~~~~~~~
+C:/Users/ACER/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\lpc17xx.h(999): note: expanded from macro 'LPC_GPIO2'
+#define LPC_GPIO2             ((LPC_GPIO_TypeDef      *) LPC_GPIO2_BASE    )
+                               ^                         ~~~~~~~~~~~~~~
+ex7.cpp(44): warning: C++98 requires newline at end of file [-Wc++98-compat-pedantic]
+}
+ ^
+ex7.cpp(40): warning: no previous prototype for function 'TIMER2_IRQHandler' [-Wmissing-prototypes]
+extern "C" void TIMER2_IRQHandler(void) //Use extern "C" so C++ can link it properly, for C it is not required
+                ^
+ex7.cpp(40): note: declare 'static' if the function is not intended to be used outside of this translation unit
+extern "C" void TIMER2_IRQHandler(void) //Use extern "C" so C++ can link it properly, for C it is not required
+           ^
+           static 
+36 warnings generated.
+compiling ex7.cpp...
+linking...
+Program Size: Code=684 RO-data=220 RW-data=0 ZI-data=608  
+".\Objects\ex7.axf" - 0 Error(s), 36 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.0.0.pack
+                ARM.CMSIS.6.0.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.LPC1700_DFP.2.7.2.pack
+                Keil.LPC1700_DFP.2.7.2
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: GPIO Version: 1.1.0
+   * Component: PIN Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_Target_1
+  C:\Users\ACER\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include
+  C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include
+  C:\Users\ACER\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.0.0
+
+   * Component: Keil::Device:GPIO:1.1.0
+      Source file:   RTE_Driver\GPIO_LPC17xx.c
+      Include file:  RTE_Driver\GPIO_LPC17xx.h
+
+   * Component: Keil::Device:PIN:1.0.0
+      Include file:  RTE_Driver\PIN_LPC17xx.h
+      Source file:   RTE_Driver\PIN_LPC17xx.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
